@@ -1,5 +1,5 @@
 require('dotenv').config();
-process.env.TZ = 'Asia/Kolkata'; // Force IST for all new Date() calls
+process.env.TimeZone = 'Asia/Kolkata'; // Force IST for all new Date() calls
 const express = require('express');
 const bodyParser = require('body-parser');
 const cors = require('cors');
